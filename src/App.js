@@ -1,7 +1,19 @@
 import { useState } from "react";
 
 function Square({ value, onClick }) {
-  console.log({ onClick });
+
+  {
+    0;
+
+    1 + 1
+
+    if (true) {
+      2
+    }
+
+    console.log('hello world!!!')
+  }
+
   return (
     <button className="square" onClick={onClick}>
       {value}
@@ -80,10 +92,13 @@ export default function Game() {
       description = "Go to game start";
     }
 
+    return 
     <li>
       <button onClick={() => jumpTo(move)}>{description}</button>
     </li>;
   });
+
+  console.log(moves);
 
   return (
     <div className="game">
